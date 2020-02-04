@@ -43,8 +43,6 @@ open MST
 *)
 
 
-/// Disabling projectors because we don't use them and they increase the typechecking time
-
 #push-options "--fuel  0 --ifuel 2 --z3rlimit 20 --print_implicits --print_universes \
    --using_facts_from 'Prims FStar.Pervasives FStar.Preorder MST Steel.Semantics.Hoare.MST'"
 
